@@ -5,8 +5,8 @@ public class Totality {
     public int sum(int[] a, String stype){
         int len = a.length;
         int number_sum = 0;
-        Map<String, Integer> step = new HashMap<String, Integer>;
-        Map<String, Integer> start = new HashMap<String, Integer>;
+        Map<String, Integer> step = new HashMap<String, Integer>();
+        Map<String, Integer> start = new HashMap<String, Integer>();
 
         step.put("odd", 2);
         step.put("even", 2);
